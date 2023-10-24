@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import time
 
 def web_scraper(url):
     target_page = requests.get(url)
