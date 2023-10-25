@@ -1,1 +1,2 @@
 # Python-Web-Scraper-Infobel
+This script uses Python to function as a web scrapibg tool. When ran, the programme will carry out a get request to the target url, before identifying all the restaurant names and addresses. The script then compiles all of this information into a csv file, where it can be easily accessed and read.
