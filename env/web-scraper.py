@@ -9,7 +9,7 @@ def web_scraper(url):
     restaurants = soup.findAll('h2', attrs={'class': 'customer-item-name'})
     addresses = soup.findAll('span', attrs={'class': 'customer-info-detail highlighted address'})
 
-    restaurant_directory = open('scraped_restaurants.csv', 'w', newline='')
+    restaurant_directory = open('scraped_restaurants.csv', 'a', newline='')
     writer = csv.writer(restaurant_directory)
 
     writer.writerow(['restaurants', 'addresses'])
